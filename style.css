@@ -39,6 +39,22 @@ img {
     max-width: 90%;
 }
 
+/*cabeçalho*/
+header {
+    background: var(--primary-color);
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-family: var(--font-titulo);
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
 /* código omitido */
 /* Responsividade */
 @media (max-width: 768px) {
@@ -53,7 +69,8 @@ img {
     }
 
     nav ul li {
-        margin: 5px 0;
+         margin: 5px 0;
+        
     }
 
     .cta-button {

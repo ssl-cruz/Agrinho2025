@@ -98,6 +98,7 @@ border-radius: 5px;
 cursor: pointer;
 transition: 0.3s;
 }
+
 .cta-button:hover {
   background: var(--button-hover);
   color: white;
@@ -140,28 +141,4 @@ footer .cta-footer:hover {
   .cta-button {
     width: 100%;
   }
-}
-
-
-/* código omitido */
-/* Responsividade */
-@media (max-width: 768px) {
-    .conteudo {
-        width: 90%;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-         margin: 5px 0;
-        
-    }
-
-    .cta-button {
-        width: 100%;
-    }
 }
